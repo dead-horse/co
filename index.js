@@ -17,6 +17,12 @@ var slice = Array.prototype.slice;
 module.exports = co;
 
 /**
+ * Expose `toThunk`
+ */
+
+co.toThunk = toThunk;
+
+/**
  * Wrap the given generator `fn` and
  * return a thunk.
  *
